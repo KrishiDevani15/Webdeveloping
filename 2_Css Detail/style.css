@@ -1,0 +1,54 @@
+/* RULE SET ( P = Selector , color = Property, Red = Property Value, (Color:red) == Declaration ) */
+
+/* 1)For index.html */
+/* p{
+    font-size: 64px;
+    color: purple;
+} */
+
+/* <----------------------------------------------------------------> */
+
+/* 2) Selector.html (id >> class >> element are more specific then element)*/
+/* {
+    font-family: monospace;
+} */
+
+
+html{
+    font-size: 22px;
+}
+body {
+    
+    /* border: 3px solid black; */
+}
+
+main {
+    font-family: monospace;
+}
+
+/* h1{
+    color: blue;
+} */
+
+h1, h2{
+    color: blue;
+}
+
+
+
+p{
+    color: purple;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second{
+    font-style: italic;
+}
