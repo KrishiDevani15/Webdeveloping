@@ -46,6 +46,7 @@ body {
 .ring i:nth-child(3){
     border-radius: 41% 44% 56% 59% / 38% 62% 62% 37%;
     animation: animate 10s linear infinite;
+    animation-direction: alternate;
 }
 
 .ring:hover i{
